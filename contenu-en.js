@@ -4,7 +4,8 @@ window.CONTENU_EN = {
     "titre": "",
     "presentation": "My name is Matthieu Lopez. I am currently studying engineering at ENSEEIHT, specialising in MF2E (Fluid Mechanics, Energy and Environment). I also play handball for AS Toulouse INP and enjoy playing the violin in my spare time.",
     "photoAlternative": "Portrait of Matthieu Lopez",
-    "disponibilite": ""
+    "disponibilite": "",
+    "linkedin": "https://www.linkedin.com/in/matthieu-lopez-579115298/en"
   },
   "parcours": [
     {
