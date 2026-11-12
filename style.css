@@ -35,3 +35,29 @@ html{scroll-padding-top:112px}body>header{position:sticky;top:0;z-index:50;backg
 
 /* Vidéo finale au format vertical, lisible sur mobile */
 .exchange-video .video-media{aspect-ratio:9/16;max-width:380px;margin-inline:auto;background:#101d2c}.video-media video{display:block;width:100%;height:100%;object-fit:contain;background:#101d2c}.video-media:has(>p){padding:24px;flex-direction:column;gap:15px;color:white}.video-media:has(>p) .button{background:white;color:#173b64}.exchange-video{position:static}@media(max-width:760px){.exchange-video .video-media{width:100%;max-width:340px}}
+
+/* Visual stories */
+.engagement-grid,.interests-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start}
+.story-card{border:0;border-radius:24px;overflow:hidden;background:#eef5fc;box-shadow:0 10px 32px #123a6210;transition:transform .25s,box-shadow .25s}
+.story-card:hover{transform:translateY(-5px);box-shadow:0 18px 36px #123a6225}
+.story-card summary{position:relative;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;min-height:250px;padding:30px;gap:12px;background:linear-gradient(135deg,#e2efff,#f5faff);list-style:none}
+.story-card summary::-webkit-details-marker{display:none}
+.story-card.has-cover summary{min-height:340px;color:white;background:#102f50}
+.story-cover{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 44%;opacity:.65;transition:transform .5s}
+.story-card.has-cover summary:after{content:'';position:absolute;inset:0;background:linear-gradient(transparent 20%,#071d38dd)}
+.story-card:hover .story-cover{transform:scale(1.035)}
+.story-card summary>span{position:relative;z-index:1}
+.story-card .disclosure-title{font-size:clamp(1.5rem,2.4vw,2.2rem);line-height:1.15;max-width:85%}
+.story-meta{font-size:.8rem;letter-spacing:.07em;text-transform:uppercase;font-weight:700}
+.story-icon{font-size:3.3rem;color:#2464a6;margin-bottom:15px}
+.story-card .disclosure-symbol{position:absolute;right:25px;bottom:28px;border:1px solid currentColor;border-radius:50%;width:36px;height:36px;display:grid;place-items:center}
+.story-card[open] .disclosure-symbol{transform:rotate(45deg)}
+.story-card .disclosure-content{padding:28px;line-height:1.8}
+.story-card .sport-gallery img{max-height:480px;object-fit:contain}
+.map-dot.exchange-dot{fill:#d93246!important;stroke:#fff;stroke-width:1.4;paint-order:stroke fill}
+.city-chip.exchange-chip{color:#a71f31;border-color:#eaa4ae;background:#fff0f2}
+.city-chip.exchange-chip.selected{background:#a71f31;color:white}
+.map-legend{color:#36546f;font-size:.9rem;margin:12px 0}
+.video-exchange-row{grid-template-columns:minmax(0,760px);justify-content:center}
+@media(max-width:650px){.engagement-grid,.interests-grid{grid-template-columns:1fr}.story-card summary{min-height:210px}.story-card.has-cover summary{min-height:300px}}
+@media(prefers-reduced-motion:reduce){.story-card,.story-cover{transition:none}.story-card:hover{transform:none}}

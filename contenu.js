@@ -101,6 +101,17 @@ window.CONTENU = {
   },
   "engagements": [
     {
+      "titre": "Collecte de la Banque Alimentaire",
+      "sousTitre": "Human7 · ENSEEIHT",
+      "texte": "Avec Human7, l’association de l’ENSEEIHT, j’ai participé à la collecte nationale des Banques Alimentaires. Nous avons recueilli des dons de denrées pour aider les personnes en difficulté, grâce aux associations partenaires.",
+      "photos": [
+        {
+          "src": "assets/photo/collecte-human7.jpg",
+          "legende": "Collecte nationale avec Human7"
+        }
+      ]
+    },
+    {
       "titre": "Formation HVSS",
       "sousTitre": "Préparation au rôle de staffeur HVSS",
       "texte": "J’ai suivi plusieurs formations organisées par l’association 7fe Space de l’ENSEEIHT pour devenir staffeur HVSS et contribuer à la prévention du harcèlement et des violences sexuelles et sexistes lors des soirées de mon école.",

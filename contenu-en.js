@@ -97,6 +97,17 @@ window.CONTENU_EN = {
   },
   "engagements": [
     {
+      "titre": "Food bank collection",
+      "sousTitre": "Human7 · ENSEEIHT",
+      "texte": "With Human7, the ENSEEIHT association, I took part in the national food bank collection. We collected donated food to help people in need through local partner organisations.",
+      "photos": [
+        {
+          "src": "assets/photo/collecte-human7.jpg",
+          "legende": "National collection with Human7"
+        }
+      ]
+    },
+    {
       "titre": "HVSS Training",
       "sousTitre": "Preparing to become an HVSS staff member",
       "texte": "I completed several training sessions organised by ENSEEIHT’s 7fe Space association to prepare to become an HVSS staff member, helping address harassment and sexual and gender-based violence at school events.",
